@@ -1,7 +1,7 @@
 <?php 
 
 /* Author: ThemeREX */
-/* Should you have any questions regarding the theme, please contact us via: http://themerex.net/?p=142/#tickets */
+/* Should you have any questions regarding the theme, please contact us via: https://themerex.net/?p=142/#tickets */
 
 global $_REQUEST;
 $response = array('error'=>'');

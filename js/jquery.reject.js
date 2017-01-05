@@ -1,9 +1,9 @@
 /*
  * jReject (jQuery Browser Rejection Plugin)
  * Version 1.0.2
- * URL: http://jreject.turnwheel.com/
+ * URL: https://jreject.turnwheel.com/
  * Description: jReject is a easy method of rejecting specific browsers on your site
- * Author: Steven Bower (TurnWheel Designs) http://turnwheel.com/
+ * Author: Steven Bower (TurnWheel Designs) https://turnwheel.com/
  * Copyright: Copyright (c) 2009-2013 Steven Bower under dual MIT/GPLv2 license.
  */
 
@@ -40,27 +40,27 @@ $.reject = function(options) {
 		browserInfo: { // Settings for which browsers to display
 			firefox: {
 				text: 'Mozilla Firefox', // Text below the icon
-				url: 'http://www.mozilla.com/firefox/' // URL For icon/text link
+				url: 'https://www.mozilla.com/firefox/' // URL For icon/text link
 			},
 			chrome: {
 				text: 'Google Chrome',
-				url: 'http://www.google.com/chrome/'
+				url: 'https://www.google.com/chrome/'
 			},
 			safari: {
 				text: 'Safari',
-				url: 'http://www.apple.com/safari/download/'
+				url: 'https://www.apple.com/safari/download/'
 			},
 			opera: {
 				text: 'Opera',
-				url: 'http://www.opera.com/download/'
+				url: 'https://www.opera.com/download/'
 			},
 			msie: {
 				text: 'Internet Explorer',
-				url: 'http://www.microsoft.com/windows/Internet-explorer/'
+				url: 'https://www.microsoft.com/windows/Internet-explorer/'
 			},
 			gcf: {
 				text: 'Google Chrome Frame',
-				url: 'http://code.google.com/chrome/chromeframe/',
+				url: 'https://code.google.com/chrome/chromeframe/',
 				// This browser option will only be displayed for MSIE
 				allow: { all: false, msie: true }
 			}
@@ -491,7 +491,7 @@ var _scrollSize = function() {
 /*
  * jQuery Browser Plugin
  * Version 2.4 / jReject 1.0.x
- * URL: http://jquery.thewikies.com/browser
+ * URL: https://jquery.thewikies.com/browser
  * Description: jQuery Browser Plugin extends browser detection capabilities and
  * can assign browser selectors to CSS classes.
  * Author: Nate Cavanaugh, Minhchau Dang, Jonathan Neal, & Gregory Waxman

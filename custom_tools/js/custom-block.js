@@ -1,5 +1,5 @@
 /* Author: ThemeREX */
-/* Should you have any questions regarding the theme, please contact us via: http://themerex.net/?p=142/#tickets */
+/* Should you have any questions regarding the theme, please contact us via: https://themerex.net/?p=142/#tickets */
 
 
 	//add Dark/Light
@@ -46,7 +46,7 @@ jQuery(window).ready(function() {
 				all: false, // Nothing blocked
 				msie5: true, msie6: true, msie7: true // Covers MSIE 5-7
 			},
-            imagePath: 'http://shiftcv.wpspace.net/wp-content/themes/cv/js/jreject/images/',
+            imagePath: 'https://shiftcv.wpspace.net/wp-content/themes/cv/js/jreject/images/',
             header: 'Your browser is out of date', // Header Text
             paragraph1: 'You are currently using an unsupported browser', // Paragraph 1
             paragraph2: 'Please install one of the many optional browsers below to proceed',
