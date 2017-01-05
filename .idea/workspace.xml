@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="206dcb55-98c8-4878-8e89-a5df7013d174" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/author.html" afterPath="$PROJECT_DIR$/author.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog-category-arhive.html" afterPath="$PROJECT_DIR$/blog-category-arhive.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/utils.js" afterPath="$PROJECT_DIR$/js/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-audio.html" afterPath="$PROJECT_DIR$/post-audio.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-link.html" afterPath="$PROJECT_DIR$/post-link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-slider.html" afterPath="$PROJECT_DIR$/post-slider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-standart.html" afterPath="$PROJECT_DIR$/post-standart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-text.html" afterPath="$PROJECT_DIR$/post-text.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post-video.html" afterPath="$PROJECT_DIR$/post-video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/print.html" afterPath="$PROJECT_DIR$/print.html" />
     </list>
     <ignored path="jfgagnonme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,9 +37,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="359" column="128" selection-start-line="359" selection-start-column="128" selection-end-line="359" selection-end-column="128" />
-              <folding />
+            <state relative-caret-position="519">
+              <caret line="300" column="44" selection-start-line="300" selection-start-column="44" selection-end-line="300" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +55,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style/style.css" />
-        <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/author.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/print.html" />
+        <option value="$PROJECT_DIR$/404.html" />
       </list>
     </option>
   </component>
@@ -187,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483643207014</updated>
-      <workItem from="1483643208395" duration="495000" />
+      <workItem from="1483643208395" duration="1222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="495000" />
+    <option name="totallyTimeSpent" value="1222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="52" width="1218" height="1028" extended-state="4" />
@@ -233,19 +248,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="573">
+          <caret line="90" column="66" selection-start-line="90" selection-start-column="66" selection-end-line="90" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/print.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="158" selection-start-line="36" selection-start-column="119" selection-end-line="36" selection-end-column="158" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="359" column="128" selection-start-line="359" selection-start-column="128" selection-end-line="359" selection-end-column="128" />
-          <folding />
+        <state relative-caret-position="519">
+          <caret line="300" column="44" selection-start-line="300" selection-start-column="44" selection-end-line="300" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
