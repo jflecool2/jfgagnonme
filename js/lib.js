@@ -22,8 +22,8 @@ jQuery(window).load(function() {
 
 
 jQuery(document).ready(function(){
-	
-	//Google & QRcode	
+
+	//Google & QRcode
 	$QRname = jQuery('#profile_data .name .td').html();
 	$QRbirth = jQuery('#profile_data .birth .td').html();
 	$QRphone = jQuery('#profile_data .phone .td').html();
@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 	$QRsite = jQuery('#profile_data .website .td').html();
 	$QRsiteClean = jQuery('#profile_data .website .td a').attr("href");
 	$QRadress = jQuery('#profile_data .address .td').html()
-	
+
 	//Qcode
     jQuery('.qrcode').qrcode({
 		render: 'image',
@@ -45,21 +45,21 @@ jQuery(document).ready(function(){
  	});
  	//google maps
 	if (jQuery("div").is("#sc_googlemap")) {
-	if( $QRadress != null && $QRadress != "" ) 
-		{ $googleMaps = $QRadress } 
+	if( $QRadress != null && $QRadress != "" )
+		{ $googleMaps = $QRadress }
 			else { $googleMaps = "Washington" } // defaultMaps
 	googlemap_init(  jQuery("#sc_googlemap").get(0), $googleMaps);
 	};
-		
-	//Profile
-	if( $QRname != null && $QRname != "" ) {  jQuery('#profile_data .name').slideDown() } 
-	if( $QRbirth != null && $QRbirth != "" ) { jQuery('#profile_data .birth').slideDown() } 
-	if( $QRadress != null && $QRadress != "" ) { jQuery('#profile_data .address').slideDown() } 
-	if( $QRphone != null && $QRphone != "" ) { jQuery('#profile_data .phone').slideDown() } 
-	if( $QRemail != null && $QRemail != "" ) { jQuery('#profile_data .email').slideDown() } 
-	if( $QRsite != null && $QRsite != "" ) { jQuery('#profile_data .website').slideDown() } 
 
-		
+	//Profile
+	if( $QRname != null && $QRname != "" ) {  jQuery('#profile_data .name').slideDown() }
+	if( $QRbirth != null && $QRbirth != "" ) { jQuery('#profile_data .birth').slideDown() }
+	if( $QRadress != null && $QRadress != "" ) { jQuery('#profile_data .address').slideDown() }
+	if( $QRphone != null && $QRphone != "" ) { jQuery('#profile_data .phone').slideDown() }
+	if( $QRemail != null && $QRemail != "" ) { jQuery('#profile_data .email').slideDown() }
+	if( $QRsite != null && $QRsite != "" ) { jQuery('#profile_data .website').slideDown() }
+
+
 	jQuery(".sc_contact_form .enter").click(function (e) {
         userSubmitForm();
         e.preventDefault();
@@ -135,7 +135,7 @@ jQuery(document).ready(function(){
 			jQuery.post("include/sendmail.php", data, userSubmitFormResponse, "text");
 		}
 	}
-	
+
 	function userSubmitFormResponse(response) {
 		var rez = JSON.parse(response);
 		jQuery(".sc_contact_form .result")
@@ -149,12 +149,12 @@ jQuery(document).ready(function(){
 		}
 		jQuery(".sc_contact_form .result").fadeIn();
 	}
-	
-	
+
+
 		//read cookies
 		if ( jQuery.cookie("body_img") != null ) {
 			jQuery('body').addClass(jQuery.cookie("body_img"));
-		 	} 
+		 	}
 		if (  jQuery.cookie("body_bg") != null ) {
 			jQuery('body').css('background-color', jQuery.cookie("body_bg") );
 			 }
@@ -164,9 +164,9 @@ jQuery(document).ready(function(){
 		"use strict";
 		jQuery(window).scroll(function() {
 			if(jQuery(this).scrollTop() >= 110) {
-				jQuery('#toTop').show();	
+				jQuery('#toTop').show();
 			} else {
-				jQuery('#toTop').hide();	
+				jQuery('#toTop').hide();
 			}
 		});
 		jQuery('#toTop').click(function(e) {
@@ -176,19 +176,19 @@ jQuery(document).ready(function(){
 
 		// Video and Audio tag wrapper
 		jQuery('video,audio').mediaelementplayer(/* Options */);
-		
-		
+
+
 		/*load Video*/
 		jQuery(".video_thumb").click(function(){
 			var frame_code = jQuery(this).attr('data-frame');
 			jQuery(this).html('<iframe width="100%" height="320px" class="video_frame" src="'+frame_code+'"  frameborder="0" webkitAllowFullScreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowFullScreen="allowFullScreen"></iframe>');
-		});	
+		});
 
-		
-		
+
+
 
 		// Pretty photo
-		jQuery("a[href$='jpg'],a[href$='jpeg'],a[href$='png'],a[href$='gif']").attr('data-photo', 'prettyPhoto')
+		jQuery("a[href$='jpg'],a[href$='jpeg'],a[href$='png'],a[href$='PNG'],a[href$='gif']").attr('data-photo', 'prettyPhoto')
 		jQuery("a[data-photo^='prettyPhoto']").click(function(e) {
 			if (jQuery(window).width()<480)	{
 				e.stopImmediatePropagation();
@@ -200,7 +200,7 @@ jQuery(document).ready(function(){
 		jQuery("a[data-photo^='prettyPhoto']").prettyPhoto({
 			social_tools: '',
 			theme: 'light_rounded'
-		}); 
+		});
 
 
 		// Section tabs
@@ -212,7 +212,7 @@ jQuery(document).ready(function(){
 			onClick: function (e, tabIndex) {
 				var tabs = jQuery('#mainpage_accordion_area section > .section_header > .section_title');
 				var tab = tabs.eq(tabIndex);
-				
+
 				var QRphone = $QRphone;
 				var QRemail = $QRemail;
 				var QRsite = $QRsite;
@@ -237,10 +237,10 @@ jQuery(document).ready(function(){
 						jQuery('.portfolio_items').isotope({ filter: getIsotopeFilter() });}
 				} else if (tab.hasClass('contact_section_title')) {			// Contact
 					// Google info
-					if( QRadress != null && QRadress != "" ) { jQuery('.add_info .address').slideDown().find('.td').html(QRadress) } 
-					if( QRphone != null && QRphone != "" ) { jQuery('.add_info .phone').slideDown().find('.td').html(QRphone) } 
-					if( QRemail != null && QRemail != "" ) { jQuery('.add_info .email').slideDown().find('.td').html(QRemail) } 
-					if( QRsite != null && QRsite != "" ) { jQuery('.add_info .website').slideDown().find('.td').html(QRsite) } 
+					if( QRadress != null && QRadress != "" ) { jQuery('.add_info .address').slideDown().find('.td').html(QRadress) }
+					if( QRphone != null && QRphone != "" ) { jQuery('.add_info .phone').slideDown().find('.td').html(QRphone) }
+					if( QRemail != null && QRemail != "" ) { jQuery('.add_info .email').slideDown().find('.td').html(QRemail) }
+					if( QRsite != null && QRsite != "" ) { jQuery('.add_info .website').slideDown().find('.td').html(QRsite) }
 					// Google map refresh
 					if (!googlemap_refreshed) {
 						if (window.googlemap_refresh) {googlemap_refresh();}
@@ -273,12 +273,12 @@ jQuery(document).ready(function(){
 				duration: 450, easing: 'easeOutCubic'});
 			return false;
 		});
-		
+
 		jQuery('#mainpage_accordion_area h2.section_title').click(function(){
 			var ofs = jQuery(this).offset().top;
 			jQuery('html, body').animate({'scrollTop':ofs-50});
 		});
-		
+
 		// Galleries Slider
 		jQuery('.slider_container').flexslider({
 			directionNav: true,
@@ -298,7 +298,7 @@ jQuery(document).ready(function(){
 			var obj = jQuery(this);
 			obj.find('.sc_tooltip').stop().animate({'marginTop': '0'}, 100).hide();
 		});
-		
+
 
 		// ----------------------- Comment form submit ----------------
 		jQuery("form#commentform").submit(function(e) {
@@ -333,15 +333,15 @@ jQuery(document).ready(function(){
 		});
 
 		/* =========================== Customize site ===================================== */
-		
+
 		if ( jQuery.cookie("theme_style") == 'light' ) {
 			jQuery('body').removeClass('dark').addClass('light');
-		} 
+		}
 		if ( jQuery.cookie("theme_style") == 'dark' ) {
 			jQuery('body').removeClass('light').addClass('dark');
-		} 
+		}
 
-		
+
 		// Background theme
 		jQuery('#theme_switcher').click(function(e) {
 			var $body = jQuery(document).find('body').eq(0);
@@ -362,7 +362,7 @@ jQuery(document).ready(function(){
 			e.preventDefault();
 			return false;
 		});
-		
+
 		jQuery(window).scroll(function(){
 			"use strict";
 			if(jQuery('#resume').length === 0) {
@@ -375,15 +375,15 @@ jQuery(document).ready(function(){
 				jQuery('#resume_buttons').css({'top':top});
 			}
 		});
-		
-		
+
+
 
 
 });
 
 
 
-/* ============================================== */ 
+/* ============================================== */
 
 
 /* Isotope init */
@@ -392,7 +392,7 @@ var curIsotopePage = '';
 jQuery(document).ready(function() {
 	if(jQuery('.portfolio_items').length !== 0) {
 		jQuery('.portfolio_items')
-			.isotope({ 
+			.isotope({
 				itemSelector: '.portfolio_post',
 				transformsEnabled : true,
 				duration: 750,
@@ -421,7 +421,7 @@ jQuery(document).ready(function() {
 			return false;
 		});
 		pagesBuild();
-	}	
+	}
 });
 function getIsotopeFilter() {
 	var flt = curIsotopeFilter!='*' ? curIsotopeFilter : '';
@@ -506,7 +506,7 @@ var curIsotopePage = '';
 jQuery(document).ready(function() {
 	if(jQuery('.portfolio_items').length !== 0) {
 		jQuery('.portfolio_items')
-			.isotope({ 
+			.isotope({
 				itemSelector: '.portfolio_post',
 				transformsEnabled : true,
 				duration: 750,
@@ -535,7 +535,7 @@ jQuery(document).ready(function() {
 			return false;
 		});
 		pagesBuild();
-	}	
+	}
 });
 function getIsotopeFilter() {
 	var flt = curIsotopeFilter!='*' ? curIsotopeFilter : '';
@@ -600,22 +600,3 @@ jQuery(window).load(function(){
 	});
 	}
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
