@@ -1,0 +1,13 @@
+h4.post_title {
+  color: white;
+}
+
+.portfolio_items article h5 {
+  top: 30px;
+  left: 0px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:center;
+  width: calc(100% - 5px - 5px);
+  color:white;
+}
