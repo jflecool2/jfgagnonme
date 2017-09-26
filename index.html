@@ -52,33 +52,35 @@ this little easter egg in here during the interview. -JF
             <h2 class="section_title profile_section_title vis"><a href="#"><span class="icon icon-user"></span><span class="section_name">Profile</span></a><span class="section_icon"></span></h2>
             <div id="profile_header">
               <div id="profile_user">
-                <div id="profile_photo"><img src="jf_img/cat.png" alt="Gagnon Jean-Francois" /></div>
+                <!--<div id="profile_photo"><img src="jf_img/cat.png" alt="Gagnon Jean-Francois" /></div>-->
                 <div id="profile_name_area">
                   <div id="profile_name">
                     <h1 id="profile_title"><span class="firstname">Jean-Francois</span> <span class="lastname">Gagnon</span></h1>
-                    <h4 id="profile_position">Programmer</h4>
+                    <h4 id="profile_position"  class="programmer" style="display: none;">Programmer</h4>
+                    <h4 id="profile_position"  class="softwareengineer" style="display: none;">Software Engineer</h4>
                   </div>
                 </div>
               </div>
               <div id="profile_data">
-                <div class="profile_row name"> <span class="th">Name:</span><span class="td">Gagnon Jean-Francois</span> </div>
-                <div class="profile_row birth"> <span class="th">Date of birth:</span><span class="td">November 27, 1992</span> </div>
-                <div class="profile_row address"> <span class="th">Address:</span><span class="td">Montreal, QC H3T1J3, Canada</span> </div>
+                <!--<div class="profile_row name"> <span class="th">Name:</span><span class="td">Gagnon Jean-Francois</span> </div>
+                <div class="profile_row birth"> <span class="th">Date of birth:</span><span class="td">November 27, 1992</span> </div>-->
                 <div class="profile_row phone"> <span class="th">Phone:</span><span class="td">+1-514-360-2448</span> </div>
                 <div class="profile_row email"> <span class="th">Email:</span><span class="td">jfg@gnon.ca</span> </div>
                 <div class="profile_row website"> <span class="th">Website:</span><span class="td"><a target="_blank" href="https://jfgagnon.me">https://jfgagnon.me</a></span> </div>
+                <div class="profile_row address"> <span class="th">Address:</span><span class="td">Montreal, QC, Canada</span> </div>
               </div>
             </div>
           </div>
           <div class="section_body profile_section_body">
             <div class="proile_body">
-                At 11 years old, I made the most important discovery of my life:
-                finishing my first mini-game, I realized not only I could code, but I loved doing it. <br />
+                At 11 years old, after finishing my first mini-game, I realized I found my passion. <br />
                 <br />
-                Since then, I made a lot of small project, I leaded a few teams, done some freelance work and few internship.
-                Now it's the time to accomplish bigger and greater things.<br />
+                Since then, a lot happened: realized a lot of personal projects, studied at CEGEP and University in computer science and worked in both internship and freelance. <!--I leaded a few teams-->
+                Now, it's over and time to accomplish bigger and greater things.<br />
                 <br />
-                I specialize in getting stuff done, from assembly to java, from an algorithm to the project management.
+                I specialize in getting stuff done, from assembly to Java, from an algorithm to the project management.<br />
+				<br />
+				Ma langue natale est le Français. But I'm fluent in English too!
              </div>
           </div>
         </section>
@@ -86,12 +88,15 @@ this little easter egg in here during the interview. -JF
 
           <!-- RESUME -->
           <section class="section resume_section even" id="resume">
+		  <!--
             <div id="resume_buttons"> <a target="_blank" id="resume_link" href="print.html"><span class="label">Print</span><span class="icon-print icon"></span></a> <a target="_blank" id="resume_link_download"><span class="label">Download</span><span class="icon-download icon"></span></a> </div>
+			-->
             <div class="section_header resume_section_header">
               <h2 class="section_title resume_section_title"><a href="#"><span class="icon icon-align-left"></span><span class="section_name">Resume</span></a><span class="section_icon"></span></h2>
             </div>
             <div class="section_body resume_section_body">
-              <div class="sidebar resume_sidebar">
+              <!--<div class="sidebar resume_sidebar">
+			  
                 <aside class="widget widget_skills">
                   <h3 class="widget_title">Programming skills</h3>
                   <div class="widget_inner style_1">
@@ -103,7 +108,6 @@ this little easter egg in here during the interview. -JF
                     <div class="skills_row odd"><span class="caption">PHP</span><span class="progressbar"><span data-process="95%" class="progress yellow"><span class="value">95%</span></span></span></div>
                     </div>
                 </aside>
-                <!--
                 <aside class="widget widget_skills">
                   <h3 class="widget_title">Graphic Skills</h3>
                   <div class="widget_inner style_2">
@@ -122,7 +126,6 @@ this little easter egg in here during the interview. -JF
                       </svg> </div>
                   </div>
                 </aside>
-              -->
                 <aside class="widget widget_skills" >
                   <h3 class="widget_title">Language skills</h3>
                   <div class="widget_inner style_3">
@@ -130,7 +133,7 @@ this little easter egg in here during the interview. -JF
                     <div class="skills_row odd first"><span class="caption">English</span><span class="progressbar"><span data-process="80%" class="progress aqua"></span></span></div>
                   </div>
                 </aside>
-              </div>
+              </div>-->
               <div class="wrapper resume_wrapper">
                 <div class="category resume_category resume_category_1 first even">
                   <div class="category_header resume_category_header">
@@ -139,51 +142,114 @@ this little easter egg in here during the interview. -JF
                   <div class="category_body resume_category_body">
                     <article class="post resume_post resume_post_1 first even">
                       <div class="post_header resume_post_header">
-                        <div class="resume_period"> <span class="period_from">2015</span> - <span class="period_to">2015</span> </div>
-                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="post-text.html">Ludia</a></h4>
-                        <h5 class="post_subtitle">Tool Developer (internship)</h5>
+                        <div class="resume_period"> <span class="period_from">2016</span> - <span class="period_to">2017</span> </div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="http://biggameagency.com">BIG GAME AGENCY</a></h4>
+                        <h5 class="post_subtitle">Freelance</h5>
                       </div>
                       <div class="post_body resume_post_body">
                         <p>
-                          Improved the game engine and editor by giving more imagery options to artists. <br />
-                          Optimized productivity by creating a fast thumbnail generator for 2D and 3D assets.
+                           Improved customer checkout experience by implementing a multi-user invoice and checkout system. <br />
+							Increased user trust by integrating a Live Chat system and building a SMS bridge which reduced resolution time significantly. <br /> 
+							Developed an interactive quote system that streamlines the sale of customized trips. 
                         </p>
                       </div>
                     </article>
-                    <article class="post resume_post resume_post_1 odd">
+					<article class="post resume_post resume_post_1 odd">
                       <div class="post_header resume_post_header">
-                        <div class="resume_period"> <span class="period_from">2013</span> - <span class="period_to">2013</span> </div>
-                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="post-text.html">Electronic Arts</a></h4>
-                        <h5 class="post_subtitle">Tool Developer (internship)</h5>
+                        <div class="resume_period"> <span class="period_from">2016</span> - <span class="period_to">2017</span> </div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="http://www.radarinternational.com/">RADAR INTERNATIONAL</a></h4>
+                        <h5 class="post_subtitle">Freelance</h5>
                       </div>
                       <div class="post_body resume_post_body">
                         <p>
-                          Designed a dashboard used by server admins in EA studios all around the world. <br />
-                          Increased the productivity of EA riggers by improving the UI and workflow of our rigging tool.
+                          Gathered requirements, made technical decisions, developed and deployed without any supervision or help. <br />
+							Investigated the root cause of a breach and secured the customer's website. 
                         </p>
                       </div>
                     </article>
-                    <article class="post resume_post resume_post_1 even">
+					<article class="post resume_post resume_post_1 even">
                       <div class="post_header resume_post_header">
-                        <div class="resume_period"> <span class="period_from">2013</span> - <span class="period_to">2013</span> </div>
-                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="post-text.html">Xpertdoc</a></h4>
-                        <h5 class="post_subtitle">Tool Developer (internship)</h5>
+                        <div class="resume_period"> <span class="period_from">2015</span></div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="https://www.ludia.com/en">LUDIA</a></h4>
+                        <h5 class="post_subtitle">Internship (4 month)</h5>
                       </div>
                       <div class="post_body resume_post_body">
                         <p>
-                          Reduced XpertDoc’s clients resources required to manage and upgrade their XpertDoc data. <br />
-                          Demonstrated initiative by making a tool that significantly sped up template creation.
+                          Optimized productivity of game artists by creating a fast thumbnail generator for 2D and 3D assets, updating the viewport to 
+support an orthographic view, and re-implementing the editor's keyboard shortcut system to enable new key combinations.  <br />
+							Directly made proactive changes to the Engine team’s codebase (and validated the changes on Android devices).  <br />
+							Shipped every two weeks as part of an Agile team workflow. 
                         </p>
                       </div>
                     </article>
-                    <article class="post resume_post resume_post_2 odd">
+					<article class="post resume_post resume_post_1 odd">
                       <div class="post_header resume_post_header">
-                        <div class="resume_period"> <span class="period_from">2011</span> - <span class="period_to period_present">present</span> </div>
-                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="post-text.html">Freelance web developement</a></h4>
-                        <h5 class="post_subtitle"></h5>
+                        <div class="resume_period"> <span class="period_from">2014</span></div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="https://www.ea.com/en-ca">ELECTRONIC ARTS</a></h4>
+                        <h5 class="post_subtitle">Internship (8 month)</h5>
                       </div>
                       <div class="post_body resume_post_body">
-                        <p><a href="http://famillesdaujourdhui.com/">Familles D'aujourd'hui</a> (2011), <a href="http://weekenddegars.com/">Weekend De Gars</a> (2012-2015), <a href="https://www.facebook.com/sautech3d/">Sautech3D</a> (2014),<a href="http://www.radarinternational.com/">Radar International</a> (2016-2017), <a href="https://biggameagency.com/">Big Game Agency</a> (2015-2017)</p>
+                        <p>
+                           Designed the asset management server dashboard used by in EA studios all around the world. <br />
+							Increased the productivity of EA riggers by improving the UI and workflow of our rigging tool and its graph system. <br />
+							Integrated with Autodesk's APIs to add support for Maya 2014. <br />
+							Wrote documentation to give future new team members sufficient tools to understand the current systems. <br />
+							Handled responsibilities of Release Engineer, requiring me to handle bug tickets, write changelog and build weekly release. <br />
+							Presented and trained peers to ensure a smooth project handoff. 
+                        </p>
+                      </div>
+                    </article>
+					<article class="post resume_post resume_post_1 even">
+                     <div class="post_header resume_post_header">
+                        <div class="resume_period"> <span class="period_from">2014</span></div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="https://www.sautech.ca/">SAUTECH3D</a></h4>
+                        <h5 class="post_subtitle">Freelance</h5>
+                      </div>
+                      <div class="post_body resume_post_body">
+                        <p>
+                          Gathered requirements, created technical documents, managed one employee and delivered the finalized project on-time.  <br />
+							Delivered a secure shopping experience with SSL leveraging two third-party payment processors. 
+                        </p>
+                      </div>
+                    </article>
+					<article class="post resume_post resume_post_1 odd">
+					 <div class="post_header resume_post_header">
+                        <div class="resume_period"> <span class="period_from">2012</span> - <span class="period_to">2014</span> </div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="http://weekenddegars.com/">WEEKEND DE GARS</a></h4>
+                        <h5 class="post_subtitle">Freelance</h5>
+                      </div>
+                      <div class="post_body resume_post_body">
+                        <p>
+                          Reduced quality and deployment issues by implementing a git-to-ftp third-party system and adding a development server. <br />
+							Adapted and customized an open-source e-commerce framework (prestashop) to fit the client’s specific needs. 
+                        </p>
+                      </div>
+                      
+                    </article>
+					<article class="post resume_post resume_post_1 even">
+                      <div class="post_header resume_post_header">
+                        <div class="resume_period"> <span class="period_from">2013</span></div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="https://www.xpertdoc.com/en/">XPERTDOC</a></h4>
+                        <h5 class="post_subtitle">Internship (4 month) + Summer job</h5>
+                      </div>
+                      <div class="post_body resume_post_body">
+                        <p>
+                          Developed an application for customers to manage their XpertDoc servers and data with integrated stress testing capabilities. 
+							Proactively suggested and made an XML generator that significantly sped up template creation. 
+                        </p>
+                      </div>
+                    </article>
+					<article class="post resume_post resume_post_1 odd">
+                      <div class="post_header resume_post_header">
+                        <div class="resume_period"> <span class="period_from">2011</span></div>
+                        <h4 class="post_title"><span class="post_title_icon aqua"></span><a href="http://famillesdaujourdhui.com/">FAMILLES D'AUJOURD'HUI</a></h4>
+                        <h5 class="post_subtitle">Freelance</h5>
+                      </div>
+                      <div class="post_body resume_post_body">
+                        <p>
+                           Increased user engagement with popularity-influenced newsfeed. <br />
+							Eliminated redundancy by consolidating all micro-sites into one with customizable themes per sections.  
+                        </p>
                       </div>
                     </article>
                   </div>
@@ -382,12 +448,13 @@ this little easter egg in here during the interview. -JF
 
 
                   <!-- Famille Daujourdhui -->
+				  <!--
                       <article class="post portfolio_post portfolio_post_4 odd category_4 category_6">
                         <div class="post_pic portfolio_post_pic"> <a class="w_hover img-link img-wrap" href="jf_img/fabscr.PNG"> <span class="overlay"></span> <span class="link-icon"></span> <img src="jf_img/fabscr.PNG" alt="Portfolio item 11" /> </a> </div>
                         <h4 class="post_title">Familles D'Aujourd'hui</h4>
                         <h5 class="post_subtitle">CMS built from scratch</h5>
                       </article>
-
+				-->
                   <!-- Cobalt SL -->
                   <article class="post portfolio_post portfolio_post_14 odd category_6">
                     <div class="post_pic portfolio_post_pic"> <a class="w_hover img-link img-wrap" href="jf_img/superlauncher.PNG"> <span class="overlay"></span> <span class="link-icon"></span> <img src="jf_img/superlauncher.PNG" alt="Portfolio item 2" /> </a> </div>
@@ -546,5 +613,19 @@ this little easter egg in here during the interview. -JF
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAZsysZrgMqqdomLszby5bfFCaLOjFsBk0"></script>
 <script type="text/javascript" src="js/utils.js"></script>
 <script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript">
+
+
+jQuery.getJSON( "http://ip-api.com/json", function( data ) {
+  if(data && data.region && data.region=="QC")
+  {
+	jQuery(".programmer").show();
+  }
+  else
+  {
+	jQuery(".softwareengineer").show();
+  }
+});
+</script>
 </body>
 </html>
