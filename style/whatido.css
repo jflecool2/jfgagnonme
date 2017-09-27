@@ -1,0 +1,69 @@
+.whatido 
+				{
+				margin:auto;
+				display:inline;
+				}
+				.whatidodiv
+				{
+				margin-top:20px;
+				}
+				
+				@media only screen and (min-width: 950px) {
+					.whatidodiv
+					{
+						text-align: -webkit-center;
+					}
+				}
+				.whatido tr 
+				{
+					height:75px;
+				}
+				
+				.whatido tr td
+				{
+					padding-left:10px;
+					vertical-align: middle;
+				}
+				
+				.whatido tr td:first-child
+				{
+					width:60px;
+					padding-left:0px;
+				}
+				.whatido tr td:first-child div
+				{
+					width:30px;
+					font-size: 30px;
+					line-height: 30px;
+					padding:15px 15px 15px 15px;
+					color:white;   
+					text-align: center;
+				}
+				
+				.whatido tr td:nth-child(3)
+				{
+				padding-left:30px;
+				padding-right:5px;
+				}
+				
+				.whatido tr td:nth-child(2)
+				{
+					color:#4ca5d0;
+					vertical-align: middle;
+				}
+				
+				.xg1{
+					background-color: #e82c0c;
+				}
+				.xg2{
+					background-color: #327ea3;
+				}
+				.xg3{
+					background-color: #6ca338;
+				}
+				.xg4{
+					background-color: #ffbc38;
+				}
+				.xg5{
+					background-color: #4ca5d0;
+				}
