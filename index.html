@@ -711,8 +711,8 @@ support an orthographic view, and re-implementing the editor's keyboard shortcut
 <script type="text/javascript">
 
 
-jQuery.getJSON( "http://ip-api.com/json", function( data ) {
-  if(data && data.region && data.region=="QC")
+jQuery.getJSON( "https://ipapi.co/json/", function( data ) {
+  if(data && data.region_code && data.region_code=="QC")
   {
 	jQuery(".programmer").show();
   }
